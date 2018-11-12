@@ -1,0 +1,26 @@
+.Alert {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(183, 178, 178, .5);
+
+  &-dialog {
+    position: relative;
+    margin: 17.5px auto;
+    top: 25%;
+    background: white;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 25px;
+    z-index: 10;
+    max-width: 500px;
+  }
+  &-title {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 400;
+    padding: 20px 0;
+  }
+}
